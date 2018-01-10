@@ -15,7 +15,7 @@ class chapter3 extends FunSuite {
     assert(List.drop(list, 3) == List(4))
   }
 
-  test("drop elements until predicate meet"){
+  test("drop elements until predicate met"){
       val list = List(1,2,3,4)
 
       assert(List.dropWhile(list)(x=> x==3) == List(3,4))
